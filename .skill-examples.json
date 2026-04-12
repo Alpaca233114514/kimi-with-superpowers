@@ -1,0 +1,92 @@
+{
+  "model": "kimi-k2-5",
+  "examples": [
+    {
+      "prompt": "用户要求我修复一个bug，我应该先调用哪个技能？",
+      "aiResponses": [
+        {
+          "type": "thinking",
+          "content": "分析用户请求：「用户要求我修复一个bug，我应该先调用哪个技能？」。将拆解步骤并调用合适工具完成目标。"
+        },
+        {
+          "type": "toolcall",
+          "toolName": "read_file",
+          "toolInput": {
+            "path": "./README.md"
+          }
+        },
+        {
+          "type": "toolcall",
+          "toolName": "write_file",
+          "toolInput": {
+            "path": "./output.txt",
+            "content": "已处理：用户要求我修复一个bug，我应该先调用哪个技能？"
+          }
+        },
+        {
+          "type": "message",
+          "content": "已根据你的请求完成处理：「用户要求我修复一个bug，我应该先调用哪个技能？」。\n\n步骤摘要：\n1. 理解需求\n2. 读取上下文\n3. 生成结果\n\n以上为演示轨迹，上传时将一并提交。"
+        }
+      ],
+      "model": "kimi-k2-5"
+    },
+    {
+      "prompt": "在开始一个新功能开发之前，我需要遵循什么流程？",
+      "aiResponses": [
+        {
+          "type": "thinking",
+          "content": "分析用户请求：「在开始一个新功能开发之前，我需要遵循什么流程？」。将拆解步骤并调用合适工具完成目标。"
+        },
+        {
+          "type": "toolcall",
+          "toolName": "read_file",
+          "toolInput": {
+            "path": "./README.md"
+          }
+        },
+        {
+          "type": "toolcall",
+          "toolName": "write_file",
+          "toolInput": {
+            "path": "./output.txt",
+            "content": "已处理：在开始一个新功能开发之前，我需要遵循什么流程？"
+          }
+        },
+        {
+          "type": "message",
+          "content": "已根据你的请求完成处理：「在开始一个新功能开发之前，我需要遵循什么流程？」。\n\n步骤摘要：\n1. 理解需求\n2. 读取上下文\n3. 生成结果\n\n以上为演示轨迹，上传时将一并提交。"
+        }
+      ],
+      "model": "kimi-k2-5"
+    },
+    {
+      "prompt": "用户让我写代码，我需要先检查哪些技能？",
+      "aiResponses": [
+        {
+          "type": "thinking",
+          "content": "分析用户请求：「用户让我写代码，我需要先检查哪些技能？\r」。将拆解步骤并调用合适工具完成目标。"
+        },
+        {
+          "type": "toolcall",
+          "toolName": "read_file",
+          "toolInput": {
+            "path": "./README.md"
+          }
+        },
+        {
+          "type": "toolcall",
+          "toolName": "write_file",
+          "toolInput": {
+            "path": "./output.txt",
+            "content": "已处理：用户让我写代码，我需要先检查哪些技能？\r"
+          }
+        },
+        {
+          "type": "message",
+          "content": "已根据你的请求完成处理：「用户让我写代码，我需要先检查哪些技能？\r」。\n\n步骤摘要：\n1. 理解需求\n2. 读取上下文\n3. 生成结果\n\n以上为演示轨迹，上传时将一并提交。"
+        }
+      ],
+      "model": "kimi-k2-5"
+    }
+  ]
+}
